@@ -1,0 +1,27 @@
+{
+  "name": "restfull-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev":"node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahid-bracu/restfull-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zahid-bracu/restfull-api-server/issues"
+  },
+  "homepage": "https://github.com/zahid-bracu/restfull-api-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "validator": "^13.5.2"
+  }
+}
