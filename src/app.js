@@ -74,6 +74,7 @@ app.get('/students/:id',async(req,res)=>{
 
 
 // update data
+//http://localhost:3200/students/6042af658b2d60123c331dcd
 app.patch('/students/:id',async(req,res)=>{
     try{
         const _id=req.params.id;
